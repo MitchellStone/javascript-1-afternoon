@@ -90,11 +90,14 @@ let devMountainClassPet = dog.name
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
 // Code here
-let nameCheck = function(name){
+function nameCheck(name){
 if(name === 'Steven'){
-console.log("what is up" + name)
-} else {
-console.log("Cool name," + name)
+return "What is up Steven?";
+}else if(name === 'Bryan'){
+  return "Hey Bryan!";
+}
+ else {
+return "Cool name, " + (nameCheck(name));
 }
 }
 nameCheck('name')
