@@ -39,6 +39,10 @@ let devMountainGoal = null
 //plus the value of the name parameter.
 
 //Code here
+function greeting(name) {
+  return "Hello, " + name
+}
+greeting(name)
 
 //////////////////PROBLEM 7////////////////////
 
@@ -46,14 +50,17 @@ let devMountainGoal = null
 //Give it the same functionality as the function greeting in Problem 6.
 
 //Code Here
-
+let newGreeting = function(name){
+  return "Hello, " + name
+}
+newGreeting(name)
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
-
+let groceries = ["apples", "milk", "eggs", "bread"]
 //////////////////PROBLEM 9////////////////////
 
 //Create an object saved to the variable dog.
@@ -62,12 +69,17 @@ let devMountainGoal = null
 //and goodBoy (a boolean).
 
 //Code Here
-
+let dog = {
+  name: "Othello",
+  color: "Black",
+  age: 9,
+  goodBoy: true
+};
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
-
+let devMountainClassPet = dog.name
 //////////////////PROBLEM 10////////////////////
 
 //Write a function called nameCheck that takes in a name parameter.
@@ -78,7 +90,9 @@ let devMountainGoal = null
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
 // Code here
-
+function nameCheck(){
+  
+}
 //////////////////PROBLEM 11////////////////////
 
 // Create a function called add that takes in two parameters
