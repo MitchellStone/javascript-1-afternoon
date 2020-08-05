@@ -90,9 +90,14 @@ let devMountainClassPet = dog.name
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
 // Code here
-function nameCheck(){
-  
+let nameCheck = function(name, name2){
+if(name === name2){
+return "what is up" + name
+} else {
+  return "Cool name," + name
 }
+}
+nameCheck()
 //////////////////PROBLEM 11////////////////////
 
 // Create a function called add that takes in two parameters
